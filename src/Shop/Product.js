@@ -39,7 +39,7 @@ const Product = ({
         <img src={require(`../img/${imgUrl}`)} alt={product} />
       </div>
       <p>{product}</p>
-      <p>Price: £{price}</p>
+      <p>Price: ${price}</p>
       {content}
     </div>
   );

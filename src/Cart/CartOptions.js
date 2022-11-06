@@ -9,7 +9,7 @@ const CartOptions = (props) => {
 
   return (
     <div className="options">
-      <p className="total-price">Total price: £{totalPrice}</p>
+      <p className="total-price">Total price: ${totalPrice}</p>
       <button className="cart-option-btn">Checkout</button>
       <button
         className="cart-option-btn"

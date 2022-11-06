@@ -6,7 +6,7 @@ const ProductRow = (props) => {
   return (
     <div className="product-row">
       <p>Product: {props.product}</p>
-      <p>Price: £{props.price}</p>
+      <p>Price: ${props.price}</p>
       <div className="container">
         <label htmlFor="quantity">
           Quantity:
