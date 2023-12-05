@@ -13,9 +13,17 @@ const ProductRow = (props) => {
 					<input
 						id="quantity"
 						type="number"
-						value={props.quantity}
+						value={Number(props.quantity)}
 						onChange={(e) => {
+							const value = e.target.value;
+							e.target.value = value.replace(/^0+/, "");
 							props.handleInputChange(
+								props.product,
+								e.target.value
+							);
+						}}
+						onBlur={(e) => {
+							props.handleInputBlur(
 								props.product,
 								e.target.value
 							);
