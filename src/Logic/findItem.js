@@ -1,6 +1,5 @@
 const findItem = (cartItems, productName) => {
-  const found = cartItems.find((item) => item.product === productName);
-  return found;
+  return cartItems.find((item) => item.product === productName);
 };
 
 export default findItem;

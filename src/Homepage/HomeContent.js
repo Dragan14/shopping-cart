@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HomeContent = () => {
   return (
     <main className="main-content-container">
-      <div class="main-content">
+      <div className="main-content">
         <h1 className="title">Welcome!</h1>
         <img
           className="all-pigs-img"
