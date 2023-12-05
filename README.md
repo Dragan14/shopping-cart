@@ -2,7 +2,7 @@
 
 Visit [Shopping Cart](https://shopping-cart-vhkl.onrender.com) to view the website.
 
-# Product Page
+# Shopping Cart
 
 This website showcases my React and Frontend skills. It is an example shopping cart page for an animal store.
 
