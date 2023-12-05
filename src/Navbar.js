@@ -10,7 +10,7 @@ const Navbar = ({ cartItems, handleCartClick }) => {
 			<Link to="/" className="logo-name">
 				<img
 					className="navbar-icon"
-					src={require("./img/navbar-icon.png")}
+					src={require("./img/shopping-cart-logo.png")}
 					alt="penguin"
 				/>
 				<h1 className="title">Animal Store</h1>
