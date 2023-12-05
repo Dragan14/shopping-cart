@@ -15,7 +15,7 @@
 .all-pigs-img {
   width: 50vw;
   max-width: 400px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .shop-now-btn {
@@ -31,4 +31,8 @@
   cursor: pointer;
   background-color: #64748b;
   color: #fff;
+}
+
+.product-image {
+  border-radius: 20px !important;
 }

@@ -1,9 +1,16 @@
 .navbar {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
-  height: 10vh;
+  min-height: 10vh;
   border-bottom: 1px solid #000;
+  padding: 0 5vw;
+}
+
+.logo-name {
+  display: flex;
+  min-width: 275px;
 }
 
 .title a:hover {
